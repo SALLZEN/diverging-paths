@@ -1,0 +1,176 @@
+{
+  "version": "3.1.0",
+  "project": "diverging-paths",
+  "title": "Diverging paths to dark-matter discovery",
+  "scientific_baseline_doi": "10.5281/zenodo.23263996",
+  "concept_doi": "10.5281/zenodo.20241725",
+  "source_git_commit": "965cc43d85349a12c21ce0c1eb3d0d71c3a52651",
+  "archive_snapshot": "v0.1.1",
+  "archive_entry": "E.04--MS-DA-CR",
+  "archive_companion_edition": "0.1.1",
+  "planned_future_github_repository": "SALLZEN/diverging-paths",
+  "publication_order": "Zenodo new version first; new GitHub mirror from that exact download second",
+  "source_archive_resources": [
+    {
+      "archive_source": "code/03-si-figures-stepwise.R",
+      "destination": "code/03-si-figures-stepwise.R",
+      "source_sha256": "602c10734717df085e7deeaa413c8e3fdf743fad9d931196c2282d4ba416dc69"
+    },
+    {
+      "archive_source": "code/01-reproduce.py",
+      "destination": "code/01-reproduce.py",
+      "source_sha256": "50ed3078eae39424d7164b73ce6bbc4287fde3a7db147fa140be21780241f472"
+    },
+    {
+      "archive_source": "code/execute-notebook.py",
+      "destination": "code/execute-notebook.py",
+      "source_sha256": "bd8f0b7a0921d12e328669f82b34a66c3ec4a02f773f4d0e84c3eeb96b209367"
+    },
+    {
+      "archive_source": "code/04-build-figures.R",
+      "destination": "code/04-build-figures.R",
+      "source_sha256": "3bc03c30daea9a46f6c4e1133a23857017f41a195baff664ebe1177f1267fb5e"
+    },
+    {
+      "archive_source": "code/02-main-figures-stepwise.R",
+      "destination": "code/02-main-figures-stepwise.R",
+      "source_sha256": "c9f8f2ab6e7439d807c97080eb16d8f7f1e4e8c453d1162f65e1a26984762977"
+    },
+    {
+      "archive_source": "code/network-reconstruction/LICENSE",
+      "destination": "code/network-reconstruction/LICENSE",
+      "source_sha256": "bf93bfa6f2d02c1f0117ace38f9bfdd8e43b71679abbffe30383155d9c333a71"
+    },
+    {
+      "archive_source": "code/network-reconstruction/requirements.txt",
+      "destination": "code/network-reconstruction/requirements.txt",
+      "source_sha256": "bf7027d67b347b7daa65b105744e639e2929799077113ea8598252b62cee294e"
+    },
+    {
+      "archive_source": "code/network-reconstruction/recompute_metrics.py",
+      "destination": "code/network-reconstruction/recompute_metrics.py",
+      "source_sha256": "78f9416c716295cdd72a298dc47e9f09637c947a098e20f588dd8f19a5680de5"
+    },
+    {
+      "archive_source": "code/network-reconstruction/README.md",
+      "destination": "code/network-reconstruction/README.md",
+      "source_sha256": "98058830f0e48e73cb0cc967965638b59df55d16a0b04d77a35025c983585b75"
+    },
+    {
+      "archive_source": "code/network-reconstruction/inputs.json",
+      "destination": "code/network-reconstruction/inputs.json",
+      "source_sha256": "a0477078cb617e5dbab7106de0bff8c5c643afe128c0bcfbade777e841a9608e"
+    },
+    {
+      "archive_source": "code/network-reconstruction/tests/test_recompute_metrics.py",
+      "destination": "code/network-reconstruction/tests/test_recompute_metrics.py",
+      "source_sha256": "ffd8313c2c884f7cdf73cb8f0cff267baabc21d473873da9e6395d3b4643cc23"
+    },
+    {
+      "archive_source": "code/modules/quartz-fonts.R",
+      "destination": "code/modules/quartz-fonts.R",
+      "source_sha256": "5144e2cf3368d26052afc18914ba687a46224728d8bcfa4e01bdedfd4a7326fb"
+    },
+    {
+      "archive_source": "code/modules/register-quartz-fonts.c",
+      "destination": "code/modules/register-quartz-fonts.c",
+      "source_sha256": "835533e4c7386d6cdc6958981ffdeb62c9bb17fb12d5a1881680488872d8c2ce"
+    },
+    {
+      "archive_source": "code/modules/network_graphics.py",
+      "destination": "code/modules/network_graphics.py",
+      "source_sha256": "46a26f3b9e92b1a7bf4c4bc05898ef7a8c62d1a10dde6637b043601aad769416"
+    },
+    {
+      "archive_source": "code/modules/workflow.py",
+      "destination": "code/modules/workflow.py",
+      "source_sha256": "18641489ee9806b83281356388ba928b9bf39d2c8169d67e63ee71dbf61acbf3"
+    },
+    {
+      "archive_source": "resources/retained-figures/graph_removal.pdf",
+      "destination": "resources/retained-figures/graph_removal.pdf",
+      "source_sha256": "658b18fd5355a5e95eade4c0a3d64b5cb6ec3d16a1988bafcf9e600c7190d944"
+    },
+    {
+      "archive_source": "resources/retained-figures/graph-01.pdf",
+      "destination": "resources/retained-figures/graph-01.pdf",
+      "source_sha256": "801cc53c9ef43f46f8a0e611a2c9face71d06f01e395a048c1e25b3d2edd221f"
+    },
+    {
+      "archive_source": "resources/fonts/STIXTwoText-Italic.ttf",
+      "destination": "resources/fonts/STIXTwoText-Italic.ttf",
+      "source_sha256": "8695733706c0768637c6051141abad7cdb854184c7c36fb5050cdd0f4b148e7c"
+    },
+    {
+      "archive_source": "resources/fonts/STIXTwoMath-Regular.otf",
+      "destination": "resources/fonts/STIXTwoMath-Regular.otf",
+      "source_sha256": "95bc2729e41faf93b0bcae9e96c4dc4da45855067fd0581e621e30734fe8d90b"
+    },
+    {
+      "archive_source": "resources/fonts/FONTLOG.txt",
+      "destination": "resources/fonts/FONTLOG.txt",
+      "source_sha256": "4c487f672c92c3eb89575b2b55404bc6ab5403c1c28757e2e680fec81199f0a2"
+    },
+    {
+      "archive_source": "resources/fonts/OFL.txt",
+      "destination": "resources/fonts/OFL.txt",
+      "source_sha256": "bec17cee6412788db45fd2644b301afbc99cc5d372ddd3345dc4a7bfdefb9f04"
+    },
+    {
+      "archive_source": "resources/fonts/AUTHORS.txt",
+      "destination": "resources/fonts/AUTHORS.txt",
+      "source_sha256": "98d40fc97137fea250c07fc46f4f3a4bff15ac8c02adb3fb54a58e1f3755e3ec"
+    },
+    {
+      "archive_source": "resources/fonts/STIXTwoText-MediumItalic.ttf",
+      "destination": "resources/fonts/STIXTwoText-MediumItalic.ttf",
+      "source_sha256": "2692e8e31886972a51978a68a6460f65697351b334452959aea153ff070f718b"
+    },
+    {
+      "archive_source": "resources/fonts/STIXTwoText-Regular.ttf",
+      "destination": "resources/fonts/STIXTwoText-Regular.ttf",
+      "source_sha256": "d2a222614cf280f2db1d4ebd7d6f0dad5772541f8945a96ee4bf899c845b695b"
+    },
+    {
+      "archive_source": "resources/fonts/STIXTwoText-Medium.ttf",
+      "destination": "resources/fonts/STIXTwoText-Medium.ttf",
+      "source_sha256": "2d1f32bbeb89b7b57d726b6bfa6ff5aae2387c4c27ee8f738c1885f70c60e59c"
+    },
+    {
+      "archive_source": "requirements.txt",
+      "destination": "requirements.txt",
+      "source_sha256": "7082d149378e3bee5dfb845221c2f8c182133ffb53d6294ac5fc3d4c62584800"
+    },
+    {
+      "archive_source": "R-packages.csv",
+      "destination": "R-packages.csv",
+      "source_sha256": "f7962c05a24c7ed04092c07c92167a8bebd23a5ffddcf47c6026f17634a937e3"
+    },
+    {
+      "archive_source": "config/main-figures.json",
+      "destination": "config/main-figures.json",
+      "source_sha256": "b3aef071dc142c034758d2a9c4e3d3983bf2baedb63b22c544e0077c8214004a"
+    },
+    {
+      "archive_source": "checks/input-hashes.json",
+      "destination": "checks/input-hashes.json",
+      "source_sha256": "0119e49b2156517e9041cee3745cfd8347cd43d62a44f39d5926bb0694687a71"
+    },
+    {
+      "archive_source": "notebooks/01-reproduce-diverging-paths.ipynb",
+      "destination": "notebooks/01-reproduce-diverging-paths.ipynb",
+      "source_sha256": "d830153e5cfd0db8eeac15ddb0b24467ce3f875c500e0dc3d9a49beffc2368c2"
+    },
+    {
+      "archive_source": "data/paper_arxiv_classes.parquet",
+      "destination": "data/paper_arxiv_classes.parquet",
+      "source_sha256": "f43217ad0fd502e93f9048c6421481273b94ddcc618b290ec79ec9f0aaa47723"
+    },
+    {
+      "archive_source": "data/paper_metrics_long.parquet",
+      "destination": "data/paper_metrics_long.parquet",
+      "source_sha256": "f8864858b55f05cf1c2014a15c7b5f3acf23e8d4851d9dbcc0c559a6af4b956f"
+    }
+  ],
+  "scope": "Frozen-input reconstruction and approved presentation; no new scientific analysis or accuracy claim"
+}

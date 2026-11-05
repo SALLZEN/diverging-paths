@@ -1,0 +1,9 @@
+{
+  "release": "3.0.0",
+  "archive_path": "network/wimp-role-networks-frozen.zip",
+  "archive_sha256": "28f9fd062a639ecec45084995992e8d2ba98c3e4ed4fc86bbd1efbf93950907d",
+  "accepted_release_manifest_sha256": [
+    "3765583ad50e2c6309bca5af9d76f6425c921babcef61ec74c3742b14945f5c9",
+    "8f454e9dcf6567a0e0e069a7d267e9d2ec3e60ce16c9b7d678928126c3de9dc7"
+  ]
+}

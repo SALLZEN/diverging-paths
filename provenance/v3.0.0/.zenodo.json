@@ -1,0 +1,36 @@
+{
+  "title": "Reproduction Bundle for “Diverging paths to dark-matter discovery”",
+  "upload_type": "software",
+  "publication_date": "2026-10-09",
+  "description": "Code and data reproduction bundle for the preprint “Diverging paths to dark-matter discovery”. Includes the frozen ADS snapshot, six-stage statistical pipeline, validation and robustness materials, network ontology and analysis code, frozen network events and metrics, graph exports and saved layouts, and five main and five supplementary figure assets. The analysis cutoff is 2025. Manuscript source and the compiled preprint are maintained separately. Network outputs and presentations are preserved as historical artifacts; exact recreation of them by the current network code is not claimed.",
+  "creators": [
+    {
+      "name": "Allzén, Simon",
+      "affiliation": "Stockholm University; University of Amsterdam"
+    }
+  ],
+  "keywords": [
+    "dark matter",
+    "bibliometrics",
+    "arXiv",
+    "NASA ADS",
+    "astroparticle physics",
+    "reproducibility"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "version": "3.0.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/SALLZEN/dark-matter-plurality",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.20241725",
+      "relation": "isVersionOf",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "Version 3.0.0 is archived at https://doi.org/10.5281/zenodo.23263996. The concept DOI 10.5281/zenodo.20241725 identifies the archive lineage. Manuscript source and compiled preprint are maintained separately."
+}

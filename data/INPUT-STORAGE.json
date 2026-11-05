@@ -1,0 +1,38 @@
+{
+  "format": 1,
+  "purpose": "Lossless transport of exact frozen inputs; restoration is automatic",
+  "tables": {
+    "papers.parquet": {
+      "bytes": 120821313,
+      "sha256": "346d75dd13e09691ad0fffdbe5e38f76b1946f5e01b383060d9e2cf76f43a109",
+      "parts": [
+        {
+          "file": "papers.parquet.part01",
+          "bytes": 78643200,
+          "sha256": "cb91b3187497ec93bc5b4b2b5765075a4e085fcbb66e55b4937fd1c0fc5410e5"
+        },
+        {
+          "file": "papers.parquet.part02",
+          "bytes": 42178113,
+          "sha256": "f9afb068b1176c7205c59c4922e71a7d57976112ae8e35361479f0ead15036fd"
+        }
+      ]
+    },
+    "papers_with_dm_models.parquet": {
+      "bytes": 108266210,
+      "sha256": "ed0f91cb1d163978187f241970840f5a34518419d70c12d7a8972d473b4d0976",
+      "parts": [
+        {
+          "file": "papers_with_dm_models.parquet.part01",
+          "bytes": 78643200,
+          "sha256": "85ef060fe2f61f73a2df6d3d6b489fd92ba7b22327e375e19a7933925479abca"
+        },
+        {
+          "file": "papers_with_dm_models.parquet.part02",
+          "bytes": 29623010,
+          "sha256": "ba9bf98b0cc47825d5ec1c90c0f664f3568826b31b35e151e2aa52d07c2018dc"
+        }
+      ]
+    }
+  }
+}

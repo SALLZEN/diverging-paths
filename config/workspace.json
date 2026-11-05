@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "project": "diverging-paths",
+  "workspace_type": "public-reproduction-bundle",
+  "analysis_cutoff_year": 2025,
+  "entry_code": "E.04--MS-DA-CR",
+  "version": "3.1.0"
+}

@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: Cite the specific Zenodo version used; the concept DOI below identifies the
+  complete version lineage.
+title: Reproduction Bundle for 'Diverging paths to dark-matter discovery'
+type: software
+version: 3.1.0
+date-released: '2026-11-05'
+license: MIT
+url: https://doi.org/10.5281/zenodo.20241725
+doi: 10.5281/zenodo.20241725
+authors:
+- family-names: Allzén
+  given-names: Simon
+  affiliation: Stockholm University; University of Amsterdam
+abstract: Reproduction bundle for Diverging paths to dark-matter discovery, version
+  3.1.0. Adds a shared script/notebook route, exact frozen inputs with lossless restoration,
+  conditional reconstruction of 57 network graph/window combinations, approved stepwise
+  main-figure presentation, and bundled STIX typography. Corpus, candidate products,
+  bootstrap/sensitivity outputs and historical network archives retain their v3.0.0
+  scientific identities. The analysis cutoff is 2025. No new retrieval, classification
+  validation, annotation or bootstrap resampling is claimed. Current raw-abstract
+  extraction is not asserted to recreate historical network event tables. Manuscript
+  text and the preprint remain separate.
+keywords:
+- dark matter
+- bibliometrics
+- arXiv
+- NASA ADS
+- astroparticle physics
+- reproducibility

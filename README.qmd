@@ -1,0 +1,91 @@
+---
+format: gfm
+---
+
+# Diverging paths to dark-matter discovery
+
+**Reproduction bundle - version 3.1.0**
+
+This package provides a tested, shared script/notebook route from retained inputs to the paper's corpus counts, candidate profiles, frozen network metrics and normalized figures. It requires no account credentials or live ADS retrieval.
+
+The scientific baseline is [v3.0.0](https://doi.org/10.5281/zenodo.23263996). The [Zenodo version lineage](https://doi.org/10.5281/zenodo.20241725) remains the primary archive. This version updates execution, presentation and naming, with unchanged retained statistical products and network archives.
+
+## Set up
+
+Use Python 3.11, open a terminal in the extracted diverging-paths/ directory, and run:
+
+    ./setup-environment.sh
+
+This creates .runtime/venv. requirements.txt lists direct pins; requirements.lock.txt records the complete tested Python environment. To select an interpreter:
+
+    PYTHON_BIN=/absolute/path/to/python3.11 ./setup-environment.sh
+
+Set DAMADI_PYTHON=/absolute/path/to/python to use a prepared compatible environment instead.
+
+## Reconstruct numbers and check the frozen networks
+
+    ./run.sh --analysis-only
+
+The route restores the two large tables from lossless transport parts, checks all retained input identities, reconstructs the corpus/classification and candidate summaries, and recalculates 57 graph/window combinations from frozen graphs and count tables.
+
+For the same stages in a fresh private notebook kernel:
+
+    ./run.sh --notebook --analysis-only
+
+The clean notebook is notebooks/01-reproduce-diverging-paths.ipynb. Both routes call code/modules/workflow.py. The executed notebook and runtime files remain separate from source evidence.
+
+## Reproduce the normalized figures
+
+Install R and the packages in R-packages.csv. The approved graphical route uses macOS Quartz and command-line compiler tools, with bundled STIX Two Text/Math. Fonts are registered only within the current process. Logical bold uses Medium.
+
+    ./run.sh
+
+Or use the full notebook route:
+
+    ./run.sh --notebook
+
+The stepwise R sources are code/02-main-figures-stepwise.R and code/03-si-figures-stepwise.R. The primary figure sizes are 165 x 90 mm and twice 156 x 80 mm. The network presentation route retains all non-text drawing operations, label positions and source label characters while using STIX typography.
+
+figures/normalized/ contains the nine approved normalized manuscript PDF references. Four SI manuscript PDFs are retained artwork; regenerated SI companions are distinguished separately. Newly generated outputs go to reproduced/, never over the retained reference figures.
+
+The original figure files in figures/ remain evidence for v3.0.0. Figure 5's conceptual assessment remains supplied artwork, not a computational output.
+
+## Contents and outputs
+
+- data/: retained compact products, analysis tables and local inputs. Two large tables are transported as parts and restored automatically.
+- data/INPUT-STORAGE.json: sizes and hashes for lossless restoration.
+- checks/input-hashes.json: unchanged archive input pins.
+- network/: unchanged frozen ZIPs, historical summaries, extraction source and tests.
+- code/network-reconstruction/: conditional metric reconstruction and seven deterministic tests.
+- code/modules/: shared numerical workflow, plot and font helpers.
+- notebooks/: clean source notebook.
+- resources/: bundled fonts/licensing and source network artwork.
+- provenance/v3.0.0/: unchanged predecessor metadata and manifest.
+- release_manifest.json: current release integrity and scope.
+- reproduced/, verification/, executed-notebooks/ and .runtime/: generated or disposable outputs, ignored by Git.
+
+Verify the fixed release before a run:
+
+    .runtime/venv/bin/python code/verify_package.py
+
+Run in a writable copy. The original large tables retain their SHA-256 identities after restoration; no scientific rows, values or columns are removed. Git LFS is not required.
+
+## Scientific contract
+
+- 201,627 corpus records through 2025; 143,390 classified records.
+- Candidate analysis for 1995-2025: 27,680 tag rows from 22,247 papers.
+- Thirteen tracked families; 0.5 pseudocount; 20-mention display threshold.
+- Bootstrap intervals and sensitivity products remain retained and hash-verified; they are not resampled by this route.
+- The candidate-profile contrast remains negative: early mean JSD 0.32563, late mean 0.29295, late-minus-early -0.03268.
+
+Candidate mentions measure organized attention, not endorsement or viability. Network measures describe frozen discourse graphs, not evidential dependence or causal influence. The 180-record development review is not an independent accuracy estimate; unused holdout answers are not evaluated.
+
+The graph reconstruction verifies retained count tables and graphs. It does not claim that current raw-abstract extraction recreates the historical event tables, nor does it recreate the Gephi layout. Manuscript text and the preprint remain separate from this software package.
+
+## Earlier upstream pipeline
+
+The earlier acquisition, candidate extraction, lexical, robustness and rendering sources remain under code/001 through code/006 and network/. Their separate environment pins and frozen source artifacts are retained for provenance and research maintenance. They are not invoked by the default normalized route, and the old renderer does not define the current normalized figure references. See code/README.md.
+
+The package name is now diverging-paths. Old repository identifiers occur only in unchanged historical metadata or artifacts needed to identify earlier evidence. GitHub mirroring can be created from this Zenodo package after publication.
+
+The source code retains the MIT license. Font licenses are provided separately under resources/fonts/.

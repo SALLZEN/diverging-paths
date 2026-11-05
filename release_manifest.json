@@ -1,0 +1,1085 @@
+{
+  "schema_version": 2,
+  "project": "diverging-paths",
+  "title": "Diverging paths to dark-matter discovery",
+  "version": "3.1.0",
+  "scientific_baseline_doi": "10.5281/zenodo.23263996",
+  "concept_doi": "10.5281/zenodo.20241725",
+  "predecessor_manifest": "provenance/v3.0.0/release_manifest.json",
+  "network_archives": [
+    {
+      "path": "network/canonical-frozen.zip",
+      "bytes": 26066617,
+      "sha256": "3d74d79ec706fe60a3825b3bf3cb7f1dd22587fef01172aead04ad04759f8063",
+      "members": {
+        "outputs/canonical/abstract_cooccurrence_events.parquet": "634d0aacd9d3a57ff4dc3d1dd55d0bc61a53c5bd3465437e4d8da897b2d53f5e",
+        "outputs/canonical/candidate_metrics.csv": "001495602c8c62ab3981550c3804659e0ec721fb080d1aafce33ad6261276864",
+        "outputs/canonical/candidate_metrics_abstract.csv": "eb6bd8f93d549651f8f04a5ea187073e2fc6a5962663079cc4095672491b8bbe",
+        "outputs/canonical/candidate_metrics_abstract_by_period.csv": "523d39fbc8abc6d809b56e33348bf8aa9173f084aac6fbe20abefd1ad49b7d1f",
+        "outputs/canonical/candidate_metrics_by_period.csv": "6d21edab549f8504b35e4bcc06bb50336a1ac4b5f395da5ce2608622e8ac13e7",
+        "outputs/canonical/cooccurrence_events.parquet": "85de627574c735d30e74f70f31f3272726faf91bf844efdb514d9ae04ae118fb",
+        "outputs/canonical/edges_abstract_cooccurrence.csv": "dcca46c53e5ae3a527d391f9ec3f3a5d5b16d7cd17b674d89d110768dbe77426",
+        "outputs/canonical/edges_abstract_cooccurrence_by_period.csv": "878461d5edd1f907ee1f5a7eeaa1598dc788ff647d2e1fb47dd43c9d69c68f3f",
+        "outputs/canonical/edges_cooccurrence.csv": "2ba2650961ae4505af87fadeef8a92a84a6ffc501f42e577a4f139868da3ac57",
+        "outputs/canonical/edges_cooccurrence_by_period.csv": "7751f808b619e125f97b78db850d983b3f91f008e1b588f7ea66c5575776ddce",
+        "outputs/canonical/edges_relations.csv": "91d9b95e993f09118b36132c9438b87981e6c231cc9e4f5bd01f3002eaa63117",
+        "outputs/canonical/edges_relations_all.csv": "1874d488daf5af069270b3a112f94dea9c59dbda3fb68862c28983c9c4d76c8b",
+        "outputs/canonical/manifest.json": "3e531f1250164e4d704c71d39f69351bd3a8e7d4cd24a83561606269a2cfc2a9",
+        "outputs/canonical/nodes.csv": "d05dcdb15f9e8db5175467d54780b5a79aa3ce2c01e376a565224cdb6543fed0",
+        "outputs/canonical/occurrences.parquet": "c29ba6beff37054ebe5fd3971065aada9f76dde6eae34dd22cf32bda3c334d2e",
+        "outputs/canonical/ontology_inventory.csv": "278126710b78da1b23ac2d4b9712fe1fd438352818be14afbf6dd8e085f4f2a9",
+        "outputs/canonical/pattern_frequency.csv": "84df26a4bf3f1e436057641609c91fd775a3717cafa8cdc96a7cd1174b7de5ab",
+        "outputs/canonical/quality_flags.csv": "79471ef10772c9684d5b7bacab2751c5c218c06ef674f119fdc7f24ed764ac41",
+        "outputs/canonical/relation_audit_sample.csv": "7f11452c1b7a740d8a0426306dccf9096d6eec12e5f16ec3e704761c22c676ed",
+        "outputs/canonical/relation_events.parquet": "5dc09a1dea9df77ae80d648135722f4be06d1ae63e80b5d8dbc27d0872ccf451"
+      }
+    },
+    {
+      "path": "network/wimp-role-networks-frozen.zip",
+      "bytes": 33571179,
+      "sha256": "28f9fd062a639ecec45084995992e8d2ba98c3e4ed4fc86bbd1efbf93950907d",
+      "members": {
+        "outputs/wimp-role-networks/01_field_relative_prominence/Prominence_ 2006-2015.gexf": "584cf497de99545b251a15950d3930dd1b93b32bf3e7f5975462250ec0272a0f",
+        "outputs/wimp-role-networks/01_field_relative_prominence/Prominence_ 2016-2025.gexf": "babebc8e1add8efdb823376b9e4642601f0a0534f7dad11a683383c9ef51c32d",
+        "outputs/wimp-role-networks/01_field_relative_prominence/canonical/candidate_crosslisting_by_window.csv": "34bbf6243123babd0a287e4f875be066390e02c1749888e2413be2c9f40e0bd1",
+        "outputs/wimp-role-networks/01_field_relative_prominence/canonical/candidate_field_metrics_by_window.csv": "9df8281c6b8fb7fe8128f161c80259c8cd2b4d8a0436d0169cd65927275c7ed9",
+        "outputs/wimp-role-networks/01_field_relative_prominence/canonical/edges.csv": "ad583274115e3cedf1ad1c2019a8c450f725322590a2303d5536b5da8a572436",
+        "outputs/wimp-role-networks/01_field_relative_prominence/canonical/graphs/published_umbrella--2006_2015.graphml": "4d4801343b5fd502f2f7e20e7ca19e17d2f3b4474418e06df670a951f02c9537",
+        "outputs/wimp-role-networks/01_field_relative_prominence/canonical/graphs/published_umbrella--2016_2025.graphml": "66eddffeaa1037dc1f5214438fe2d53def295806d37f965f3760d0676901b1ab",
+        "outputs/wimp-role-networks/01_field_relative_prominence/canonical/graphs/robustness/canonical_core--2006_2015.graphml": "6e8a87aacb354e55c940fee5564b50860bb6cc6fc0cf1c095c6bd95433419ae4",
+        "outputs/wimp-role-networks/01_field_relative_prominence/canonical/graphs/robustness/canonical_core--2016_2025.graphml": "6168cf8642a47aef6c9fb1423430c000faca3f6ef8433f890e2452e679779e03",
+        "outputs/wimp-role-networks/01_field_relative_prominence/canonical/graphs/robustness/explicit_generic--2006_2015.graphml": "01f265add9c9565d6d87a42baf2940256f48c11a6c862d9fbbbf1cdc263d9562",
+        "outputs/wimp-role-networks/01_field_relative_prominence/canonical/graphs/robustness/explicit_generic--2016_2025.graphml": "c4da5440d89380e90e935e5684ea4c4c1e08ef38ed4dec9c62032316def0575d",
+        "outputs/wimp-role-networks/01_field_relative_prominence/canonical/nodes.csv": "0029ecb052b7f7fd2a83cbf7d4f4485d544e1694e74895889357f31d69e365b2",
+        "outputs/wimp-role-networks/01_field_relative_prominence/canonical/paper_field_membership.csv": "804b087192f97289060844589be2656a3d9db24544ae781a5fdb7762d94aa9dc",
+        "outputs/wimp-role-networks/01_field_relative_prominence/canonical/wimp_crosslisting_trajectory.csv": "96a859e3b918dd3626b53285ec7b449680b540515cfd4d72bd681fc23419bf48",
+        "outputs/wimp-role-networks/01_field_relative_prominence/canonical/wimp_prominence_bootstrap.csv": "aff75c15d7d2858c10c5bea22fa9c64064d64831a3c5b5dce51c8aa5eb005c56",
+        "outputs/wimp-role-networks/01_field_relative_prominence/canonical/wimp_prominence_trajectory.csv": "398c86139e835d9f365dedd726bd4878c14fa2b17438c62c66a6e4e4a8067a8f",
+        "outputs/wimp-role-networks/01_field_relative_prominence/gephi/published_umbrella--2006_2015/edges.csv": "5667808173d7017e6dc058218dab1f80b7348d486744561aa7459af623f100f0",
+        "outputs/wimp-role-networks/01_field_relative_prominence/gephi/published_umbrella--2006_2015/network.gexf": "ac5c3b6e3f31ff68bcf194f60223f37ca40e2c77569d16fa9a3cf8b0026c3852",
+        "outputs/wimp-role-networks/01_field_relative_prominence/gephi/published_umbrella--2006_2015/network.graphml": "2416c3a606be95f751cad65daf1cd72e2138602d1ea5d1317dc5d80e4ddc6995",
+        "outputs/wimp-role-networks/01_field_relative_prominence/gephi/published_umbrella--2006_2015/nodes.csv": "b9635b33e4e64ef60afcf4e305b8062235efc4e3258bfc54342feffa06a4bf77",
+        "outputs/wimp-role-networks/01_field_relative_prominence/gephi/published_umbrella--2006_2015/rendered-graph-06-15.gephi": "ab613d8e229abc88cc6a40e5da89d6b88f9428b6b0a6a5c3bc1c021516ae0a05",
+        "outputs/wimp-role-networks/01_field_relative_prominence/gephi/published_umbrella--2016_2025/edges.csv": "be7319db7e1554fb876727b8e39c7de3de9b21b3dc922c98c2c67d584d09966e",
+        "outputs/wimp-role-networks/01_field_relative_prominence/gephi/published_umbrella--2016_2025/network.gexf": "88c43d4b2ea3ce58af22554286457dbf6d5e8737aa09d9ffde42f642ff8f6acc",
+        "outputs/wimp-role-networks/01_field_relative_prominence/gephi/published_umbrella--2016_2025/network.graphml": "24bc7f34bd30e5011aa032e50d805bf347125e94e59b9ec2e63d3ce55ff8895d",
+        "outputs/wimp-role-networks/01_field_relative_prominence/gephi/published_umbrella--2016_2025/nodes.csv": "b418a5222f5e6ef2e4abce5b2a6b5ace2edc21a3645a7f5eee54537c3547aade",
+        "outputs/wimp-role-networks/01_field_relative_prominence/gephi/rendered-figures/PROMINENCE_2006-2015.pdf": "51a7a2cccc0a99652d2a5a475b106cc7c139704a2cf7d7d5e994fc98fdb87da9",
+        "outputs/wimp-role-networks/01_field_relative_prominence/gephi/rendered-figures/PROMINENCE_2006-2015.svg": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "outputs/wimp-role-networks/01_field_relative_prominence/gephi/rendered-figures/PROMINENCE_2016-2025.pdf": "02dddcfb8829e1fc8988307aa5c7756ea31e901aea3b481186c1a87f81fc08a1",
+        "outputs/wimp-role-networks/01_field_relative_prominence/gephi/rendered-figures/PROMINENCE_2016-2025.svg": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "outputs/wimp-role-networks/01_field_relative_prominence/manifest.json": "0bec1954c5c844b7069bf72cd8150b1ad661221b7f1c5954cfa81f0bf43a6dd6",
+        "outputs/wimp-role-networks/02_area_wide_importance/canonical/candidate_metrics_by_window.csv": "5af64243c4d7bb6ce2613581ca2d748bfb854c476fdd180541a38d49826bbd4d",
+        "outputs/wimp-role-networks/02_area_wide_importance/canonical/edges_by_window.csv": "8fd0b402bb8d34e9b64ad7eee88928b8730149864d64cbbefae4a1812c817a54",
+        "outputs/wimp-role-networks/02_area_wide_importance/canonical/graphs/published_umbrella--2006_2015.graphml": "4f6f6c4ad00fd9cfc920314d29727999bd2475707bbc3852754ad42a7ad776e2",
+        "outputs/wimp-role-networks/02_area_wide_importance/canonical/graphs/published_umbrella--2016_2025.graphml": "395e2ddfa5c8a549a3d092a23ec3a37c65e714592f2ba60195927f5611986f81",
+        "outputs/wimp-role-networks/02_area_wide_importance/canonical/graphs/robustness/canonical_core--2006_2015.graphml": "c47fd7ce2847c73c308bd23c225afc6deadbb8e4cd0e18dca50cf4978d8e53c1",
+        "outputs/wimp-role-networks/02_area_wide_importance/canonical/graphs/robustness/canonical_core--2016_2025.graphml": "c30ff251b846fcd66848b88fbe34f334a40ecdff8b82f0f43eb2655ed154b556",
+        "outputs/wimp-role-networks/02_area_wide_importance/canonical/graphs/robustness/explicit_generic--2006_2015.graphml": "fcb75334a45fcff014c65d3543e7e64d3d90be2332179080cde2002b58400c6c",
+        "outputs/wimp-role-networks/02_area_wide_importance/canonical/graphs/robustness/explicit_generic--2016_2025.graphml": "cea6c5df852832567a036792d1d73cc3e3a279695782635c7ff6caca3feb21f7",
+        "outputs/wimp-role-networks/02_area_wide_importance/canonical/nodes_by_window.csv": "e6c6aba68942e85096e9c4868052d2109423417abca0482eae9422083b414d9f",
+        "outputs/wimp-role-networks/02_area_wide_importance/canonical/wimp_importance_trajectory.csv": "edf77405efaea969def71e742ec351a2eda6490151b7e1ef423c3742299b283a",
+        "outputs/wimp-role-networks/02_area_wide_importance/gephi/2006-2015.gexf": "cbd1fb17c1ad3508335ed97b4145696560e807f7ec2917b2dae866e0c295c9de",
+        "outputs/wimp-role-networks/02_area_wide_importance/gephi/2016-2025.gexf": "20ebf94661cc8c234940f7a56f3bd423477d966678d37faca6c1f11191268498",
+        "outputs/wimp-role-networks/02_area_wide_importance/gephi/Area-wide-importance.gephi": "161d50f0932dc7f97ed238f5f4145107a85502c1464c8d0208efb48b6cdfd28c",
+        "outputs/wimp-role-networks/02_area_wide_importance/gephi/published_umbrella--2006_2015/edges.csv": "4ee093f6b4bbc21ca577240f175d7fecf72e5259b180ba84001d9bf7b012e9b4",
+        "outputs/wimp-role-networks/02_area_wide_importance/gephi/published_umbrella--2006_2015/network.gexf": "212deb3226373955be3ceb2af4201d026f682bb1c8263d0321b3795fbe714061",
+        "outputs/wimp-role-networks/02_area_wide_importance/gephi/published_umbrella--2006_2015/network.graphml": "9b4d70f859465d33918480a6c941c06c91e2c209b4dd5bb2bf71449c4a2669cf",
+        "outputs/wimp-role-networks/02_area_wide_importance/gephi/published_umbrella--2006_2015/nodes.csv": "bbea5e2681f2fd2860a919f00af6e256862767c55f5c10238899c7fdf3ab4f90",
+        "outputs/wimp-role-networks/02_area_wide_importance/gephi/published_umbrella--2016_2025/edges.csv": "219e73f988df3ecc8f477e05936a2be70ebb0d2a306d83fd59d8da40cbe083c5",
+        "outputs/wimp-role-networks/02_area_wide_importance/gephi/published_umbrella--2016_2025/network.gexf": "2db7e9a4adeb875be10334d133434be1ed9c9008225e5347feeb350a98556f31",
+        "outputs/wimp-role-networks/02_area_wide_importance/gephi/published_umbrella--2016_2025/network.graphml": "fe220afe796dcbdc2c11c1bc39399769a1a9613c74e5ea215d3f554a7b9c5409",
+        "outputs/wimp-role-networks/02_area_wide_importance/gephi/published_umbrella--2016_2025/nodes.csv": "739fdf7bf640f2ae549d6191232f3c4742bd85e0e95f493bfeb9a1cd8ee4d787",
+        "outputs/wimp-role-networks/02_area_wide_importance/gephi/rendered-figures/IMP_2006-2015.pdf": "57c4120346ec280fe759bcd3b168245d1512414505fdeb3b7048d619e1c7e8bb",
+        "outputs/wimp-role-networks/02_area_wide_importance/gephi/rendered-figures/IMP_2006-2015.svg": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "outputs/wimp-role-networks/02_area_wide_importance/gephi/rendered-figures/IMP_2016-2025.pdf": "bc9250051103876d26829a27f911f9a33a49b8dc21e60f4a061cfd8c4e7930e0",
+        "outputs/wimp-role-networks/02_area_wide_importance/gephi/rendered-figures/IMP_2016-2025.svg": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "outputs/wimp-role-networks/02_area_wide_importance/manifest.json": "8e6405c6cd098d3b7757c922a136691c1bb440250ff0c53479dce2d2ee2dfb60",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/canonical/common_endpoint_sensitivity.csv": "07a256754153fc5b9e5b3eedc55a5e710f672538099f0f0bcf7ba02b943e8bd8",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/canonical/concept_brokerage_metrics_by_window.csv": "eb123db4747ad84f5be73555bf59ce592b48ab56f381a1c8bdb0b64aefb7e20d",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/canonical/edges_by_window.csv": "ece591e10645e3b219792a18d09a1e61d5e1176b3983b7f63d6424f573d2db9e",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/canonical/graphs/published_umbrella--2006_2015.graphml": "43c5de997f8fdd4c25409fe828426b0f93adfc3865f9979f724216926ff96098",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/canonical/graphs/published_umbrella--2016_2025.graphml": "400b709a555755c1175587d956a8391ba9ab958b171c52cc84ebe092ad3bd75f",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/canonical/graphs/robustness/canonical_core--2006_2015.graphml": "e454e610dafe420d062482e7156b3379e7474ba0c8eadf42016c4f49214c49b0",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/canonical/graphs/robustness/canonical_core--2016_2025.graphml": "3d5e29ce040af6ca11bb3178d7178b9daa0d807e1ec28badd670bd95635dcfdc",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/canonical/graphs/robustness/explicit_generic--2006_2015.graphml": "128694a8bf6d5c3fa268f73be0fbdd30df776d8662ebe5c2870dc0b7685e269a",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/canonical/graphs/robustness/explicit_generic--2016_2025.graphml": "28a4eddf40f9c0509c5486f1b1988f8c4484d0a839b6b14572111eafa3b02962",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/canonical/node_removal_metrics.csv": "af673d172b9029be73f53b4064ee7c14e56d5109121bc8f81e8922678670de6e",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/canonical/nodes_by_window.csv": "eb123db4747ad84f5be73555bf59ce592b48ab56f381a1c8bdb0b64aefb7e20d",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/canonical/wimp_brokerage_trajectory.csv": "3b02649221ae7fadb45e21741b026bfb1070a3c6d7652ac439428cb850b4a9df",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/gephi/2006-2015.gexf": "bfa33b64bae81c8667f36c7b7dd16ea65dfc09e2ecc64b52737733a419502986",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/gephi/2016-2025.gexf": "80b930ab5586cba581ff755373ae0b8f210059faa7bd89accf513133fa70949f",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/gephi/Bridge-and-brokers.gephi": "7ba2ce70db63c9cc053784f20e70ad33d6f56e997020f2d20c1f5485f625fa6b",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/gephi/Bridge-and-brokers_removal-effect.gephi": "b1d2fdeafeebb761776e1559f96e57c942872deb52dee424969233fb383ae819",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/gephi/network.gexf": "61871c33d7837d78a126c7b6df86aee714e886a16f59f331c6ff5d4a9d459db3",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/gephi/published_umbrella--2006_2015/edges.csv": "8fb701a8322b0a4f81435df64b01f10f5470b8632c019369dfb694bb70e7d12e",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/gephi/published_umbrella--2006_2015/network.gexf": "7e40baa225076ae38bbe4259a754a288f5f257d44309bcad52f291756c929075",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/gephi/published_umbrella--2006_2015/network.graphml": "81e84d57408a3ca5ab068037d6cc5f0ececa645f048427f5675e917f75ad0e6c",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/gephi/published_umbrella--2006_2015/nodes.csv": "419064fed03223daccc7f2b0792f5bdecdf840a31564fcc30ce6961978f9fbfe",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/gephi/published_umbrella--2016_2025/edges.csv": "160a610a35fbfe7dc4d76781051d59e6e647c63c0c5f3e5b69d67f367f555311",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/gephi/published_umbrella--2016_2025/network.gexf": "dc7cb0cec9a4ce723d2b0a4d95c92622befbd4530d4f3ab0c7af8f7b6a412893",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/gephi/published_umbrella--2016_2025/network.graphml": "41799ec263a7ebf2bd2f52430ca4474ff6cbdd82099ba22537dacdeb1c787246",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/gephi/published_umbrella--2016_2025/nodes.csv": "b30ecb63936de96a804e82d0405371782afadf666b61ca919b1f1904ab88c795",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/gephi/rendered-figures/BR_2006-2015.pdf": "b86757cb25b081837611d201457b0e7ec83d85e02b4d66e02b3a216271fcdddb",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/gephi/rendered-figures/BR_2006-2015.svg": "1512f44e45f336a001379b372df22b5f8e77d8777594ad4b9e35aa164c1d25f6",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/gephi/rendered-figures/BR_2016-2025.pdf": "7e6d1bcf3ce50e545b42da7a546130374fae5c4f7bc0bde22455eb3f83ffbe97",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/gephi/rendered-figures/BR_2016-2025.svg": "dac5170874ab3d25af5684f0e7d585833383eede21b797a9e7c89f67fc5cbbcf",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/gephi/rendered-figures/BR_removal-effect-common_2006-2015.pdf": "69e1683f4782ab66be5eb5232c2b2e75a4db0dda65227f569cebb83b773dde6d",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/gephi/rendered-figures/BR_removal-effect-common_2006-2015.svg": "7a8a01e3428c8c643ee86011f10603ce37d0c066aa2600d22c76c86866a1de42",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/gephi/rendered-figures/BR_removal-effect-common_2016-2025.pdf": "281e3710de9a210cc97a60b4be14438f7bd8250e917720db6edd02c942688f8d",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/gephi/rendered-figures/BR_removal-effect-common_2016-2025.svg": "7c222e485627cd8bce8e1f31f03c5bf5745eda959bfcabb824a1eaf0efab44d0",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/manifest.json": "996f0be35ea21f6eaf1aaa286713d57412996e9990c5c87d9a6dbd1cfa5ec948",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/removal/2006-2015.gexf": "9a555b23305fc1e09abe4ea56a511517efde00b7a9b8bd1170f422619475263d",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/removal/network.gexf": "1a966605510c4e737a144bfe68bb1fa796786aecc0d420b87c4e8db79dac300b",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/removal/removal effect 2006-2015.gexf": "9e8dd0068e875787ee74ce3075650905cb59c79cac9c1f029333b6af1b3e29c9",
+        "outputs/wimp-role-networks/03_cross_field_brokerage/removal/removal effect 2016-2025.gexf": "179182c8bc639152c6a367425b5b257f13a386b86876c2507d0e0ab3d8f305a2",
+        "outputs/wimp-role-networks/legends/README.md": "bc1949201cc7cbc84f9e69b822c24ecb2605973e59311a10d26dea060df6cb32",
+        "outputs/wimp-role-networks/legends/Rplots.pdf": "f1df3c88bad280470e40a8736dffa3ed137a151bcafbe41d594f55d5e711c710",
+        "outputs/wimp-role-networks/legends/data/graph-c-brokerage-shared-node-size-legend.csv": "36a9a7bba29371253830dcd94e356318cbc8d59b84a423bb5c9deba65b97256c",
+        "outputs/wimp-role-networks/legends/data/graph-c-brokerage-size-mapping-comparison.csv": "041006dadcd3c533825adf57afdab6bb9aff31e1fa4480217b2cbd2aa71183ba",
+        "outputs/wimp-role-networks/legends/data/graph-c-removal-effect-linear-node-size-legend.csv": "fe960e81e9d654364ff52bf59baceafc960ed55e2a988f123069ba0030f9879e",
+        "outputs/wimp-role-networks/legends/data/graph-c-removal-effect-linear-summary.csv": "1a63460e0d54c9319d64beb07abb2d0244174a979e1a6306c5ca1995aafffe81",
+        "outputs/wimp-role-networks/legends/data/graph-c-removal-effect-period-scaling.csv": "2b49de17f96d5418db252133ee936ef4803109509fe9c08c8bbafdee1afc9e80",
+        "outputs/wimp-role-networks/legends/data/graph-c-removal-effect-saved-spline-node-size-legend.csv": "7bff6584caa5e99037528a1c83d3551ba496974f62860a73a4b98a5ff1e883be",
+        "outputs/wimp-role-networks/legends/data/graph-c-removal-effect-saved-spline-summary.csv": "4a72c997a8a34cb47a83b98559c74107c0978c570e7b9e23085fd3ac53f77bf0",
+        "outputs/wimp-role-networks/legends/data/graph-c-removal-effect-shared-node-size-legend.csv": "35b0033b10a198f4b8384c406547b7b16b113ed604318f41265d5ea14617e8f5",
+        "outputs/wimp-role-networks/legends/data/graph2-node-color-keys.csv": "d8514b785257a615900bb4a2be61951665ce51d6dfa01e38812dfbe74bfa74aa",
+        "outputs/wimp-role-networks/legends/data/graph2-node-size-legend.csv": "73f43eb574abd046ec1a8ab9f5e06b48a14da0736611b7c3cce2f11331f4c1a7",
+        "outputs/wimp-role-networks/legends/data/graph3-node-colorbar.csv": "52f3dde4f955a4cba933fe30f83d50429dd36c3a0d6c7aebfbafe33ba59c2b91",
+        "outputs/wimp-role-networks/legends/data/graph3-node-size-legend.csv": "a18fd9d6f9812e9effd99df1adbb31970865ca7677c875ecc922a17af8362a83",
+        "outputs/wimp-role-networks/legends/rendered/graph-c-brokerage-shared-node-size-legend-dark.pdf": "76f1e1df695cad3d63e21f7c4c278320affe14daf2781b8431c8975a138aa568",
+        "outputs/wimp-role-networks/legends/rendered/graph-c-brokerage-shared-node-size-legend-dark.svg": "dd03f38120b00970754c4343ddba6c58847cee70f30e5a361bdd15e4a7f73e75",
+        "outputs/wimp-role-networks/legends/rendered/graph-c-brokerage-shared-node-size-legend-light.pdf": "3bc135bf87be3e123efb20256e572ecfcfa9c5a906bfff22d76666bdbe260bf8",
+        "outputs/wimp-role-networks/legends/rendered/graph-c-brokerage-shared-node-size-legend-light.svg": "f9a2325506a0fa15026a7139ca3eeeb45d51f5ebb63a5d2e0ca95568ec6db079",
+        "outputs/wimp-role-networks/legends/rendered/graph-c-removal-effect-linear-node-size-legend-dark.pdf": "8aaf80091db9efdb8bb5e08d7f6d192e92c1f66a023fa99ad33b7dca4baee3f1",
+        "outputs/wimp-role-networks/legends/rendered/graph-c-removal-effect-linear-node-size-legend-dark.svg": "275669a71208bf2091b89927938f3a715ffd72a0d2cea0118bbbd9398ed6f72c",
+        "outputs/wimp-role-networks/legends/rendered/graph-c-removal-effect-linear-node-size-legend-light.pdf": "28280370ca91465fb9c073c1e35f8cb818713de828d446b89dedb252189da9d7",
+        "outputs/wimp-role-networks/legends/rendered/graph-c-removal-effect-linear-node-size-legend-light.svg": "3d4072f33ffcc8379e29ba5a994c3bd9dd6d8528cb0468a9969d4d80ff790988",
+        "outputs/wimp-role-networks/legends/rendered/graph-c-removal-effect-saved-spline-node-size-legend-dark.pdf": "707139987f763ac16bc9885ce428a28bb672274037e51fd7e3b7d4f0bdd954c0",
+        "outputs/wimp-role-networks/legends/rendered/graph-c-removal-effect-saved-spline-node-size-legend-dark.svg": "b539536157a738f5ae0a224fcf134b85d8daebaa6b07275712ca10ad5567d2a1",
+        "outputs/wimp-role-networks/legends/rendered/graph-c-removal-effect-saved-spline-node-size-legend-light.pdf": "eab5074205272c6adeee49c2172ecf14c971e14427eef9dd303f5cc70953f295",
+        "outputs/wimp-role-networks/legends/rendered/graph-c-removal-effect-saved-spline-node-size-legend-light.svg": "de7601888a98fac3ab94978c264a141bc3f33ca2ae3bf553e803f591092e603e",
+        "outputs/wimp-role-networks/legends/rendered/graph-c-removal-effect-shared-node-size-legend-dark.pdf": "23de8a5ecb82da4ed4a02acc00a4ea5128e240e99118f84cedd6a7e119605421",
+        "outputs/wimp-role-networks/legends/rendered/graph-c-removal-effect-shared-node-size-legend-dark.svg": "670e3fb493222bb4e1be7dcdc13a6adef7c3a98b2b23824bf7bb762939df8de1",
+        "outputs/wimp-role-networks/legends/rendered/graph-c-removal-effect-shared-node-size-legend-light.pdf": "9f5f4004f9be31858619a800eaf25628ce15ed8f0f2e13d48ce4ff787ea54dad",
+        "outputs/wimp-role-networks/legends/rendered/graph-c-removal-effect-shared-node-size-legend-light.svg": "7de702f92897742f6ac84c5b1d4ed43a8188a37e3cbfdfdfe57d28b60800f676",
+        "outputs/wimp-role-networks/legends/rendered/graph2-combined-legend.pdf": "b53ff51d52b391017ab23b6be8c535b0270325ec7a882ccfd935fca1a6d7d8c0",
+        "outputs/wimp-role-networks/legends/rendered/graph2-combined-legend.svg": "68c9cee901f33e9d545b2bf3fc7ada0b74756c681139c1276d5ecb0440cd4332",
+        "outputs/wimp-role-networks/legends/rendered/graph2-node-color-key.pdf": "17d3c0acdcf547ae044fa5d05e288f0c9ef786078a6af10747bf9168dc1fca62",
+        "outputs/wimp-role-networks/legends/rendered/graph2-node-color-key.svg": "ab80e77bfe02fdb9a2ee8f57649f77d2fb6bd8c8da0c2cabe30f9b10715ae81e",
+        "outputs/wimp-role-networks/legends/rendered/graph2-node-size-legend.pdf": "ffdff44a30499fde8b853bf2ff6252291363430efe9fad6160853cc130139857",
+        "outputs/wimp-role-networks/legends/rendered/graph2-node-size-legend.svg": "106ba8e639083435b6f976e941e2b9055bf8a37d72e10c4d985be3c94a86f9dd",
+        "outputs/wimp-role-networks/legends/rendered/graph3-combined-legend.pdf": "7b49adbf28df971216a75b666c0019b4f279265e026926f3ced86696bd5e7f59",
+        "outputs/wimp-role-networks/legends/rendered/graph3-combined-legend.svg": "e59cb9fc8e8085327e50aae3211b5b6d6c1ee73c2a9c42fbc1046c122a03fa00",
+        "outputs/wimp-role-networks/legends/rendered/graph3-node-colorbar.pdf": "99439017ccaa27b37ddbac4d8af93a3f226368b88840d24ce04d49dbe463f1ee",
+        "outputs/wimp-role-networks/legends/rendered/graph3-node-colorbar.svg": "236c55ee91c3296b7d0547cee460a748914db718d133b3ea6a78bf34cce33230",
+        "outputs/wimp-role-networks/legends/rendered/graph3-node-size-legend.pdf": "48945b0689b432e5dd626bc5b6593c9eccc617179c1dc716b4e52900764be49c",
+        "outputs/wimp-role-networks/legends/rendered/graph3-node-size-legend.svg": "a07440d4d70ab788a3e8848dabd325c5a869c4b5b6fd8a46fe514434b60450a0",
+        "outputs/wimp-role-networks/manifest.json": "fe9c899510d5dc5471edd2410e00009cc2c09f31b00414f673b335f51159c11f"
+      }
+    }
+  ],
+  "scope": "Unchanged retained scientific products, with normalized execution and presentation",
+  "files": {
+    ".editorconfig": {
+      "bytes": 195,
+      "sha256": "59d7fe3acb6fb5c3da3fd198b881c6cc26861c7acc1b1d970448642f9005b73d"
+    },
+    ".gitattributes": {
+      "bytes": 97,
+      "sha256": "f3f7f43b4802c8fb6f7a7cb913f919995fd5e8c51b27b8e4798daa0ee52e74b4"
+    },
+    ".gitignore": {
+      "bytes": 2067,
+      "sha256": "35e5b0d211d1b6fba97b34aee4b966868ae448a8ecaebc4fec0f8c933aa92f01"
+    },
+    ".zenodo.json": {
+      "bytes": 1748,
+      "sha256": "367dc4ac9bfd6c774effffb58df1a8d5aad850216fb58f2f8681822b6fabf556"
+    },
+    "CHANGELOG.md": {
+      "bytes": 804,
+      "sha256": "8aaef9ad12802a72062e1c0a707c0eb4c764512e31dd0ce495e5796283625f06"
+    },
+    "CITATION.cff": {
+      "bytes": 1296,
+      "sha256": "0fa4dcd947be11d6f933b3104f82da9e426f52e405854e7eeef178ff0f8682ba"
+    },
+    "LICENSE": {
+      "bytes": 1070,
+      "sha256": "bf93bfa6f2d02c1f0117ace38f9bfdd8e43b71679abbffe30383155d9c333a71"
+    },
+    "NORMALIZATION.md": {
+      "bytes": 2304,
+      "sha256": "2023b919aec9780fc07dc7c1483628cf8ccb4e681ff31209966e79b04f8c9cfa"
+    },
+    "PROVENANCE.json": {
+      "bytes": 7799,
+      "sha256": "f4dea5ea0109b06614bbf572e997a68a3c2c377b9f39bf6b8b37726f7972b2ed"
+    },
+    "R-packages.csv": {
+      "bytes": 222,
+      "sha256": "f7962c05a24c7ed04092c07c92167a8bebd23a5ffddcf47c6026f17634a937e3"
+    },
+    "README.md": {
+      "bytes": 5782,
+      "sha256": "44e216d8cd40b5daad7c97c87275a004b388ad917dd7d0aa253cfd2a0f47ec35"
+    },
+    "README.qmd": {
+      "bytes": 5803,
+      "sha256": "93d6aaf3c9c6443a71afebacca9eac56af1cdf56e7a404fda25792ec1d2b39df"
+    },
+    "assets/fonts/README.md": {
+      "bytes": 217,
+      "sha256": "024a861a59cc136990d724219d6073db541a5e805a59515757926e71424566ee"
+    },
+    "bootstrap_python_env.sh": {
+      "bytes": 73,
+      "sha256": "194ccc6049391a6a742d3ad60bf60c722533e60eb134f6eb4026e20cac2bcd74"
+    },
+    "checks/input-hashes.json": {
+      "bytes": 5973,
+      "sha256": "0119e49b2156517e9041cee3745cfd8347cd43d62a44f39d5926bb0694687a71"
+    },
+    "code/001-collect-ads-records.ipynb": {
+      "bytes": 7242,
+      "sha256": "bd5cd061ab69682af335c0b3774419929d650dab4ebf5bd559d6bae297f01cc5"
+    },
+    "code/001a-update-ads-records.ipynb": {
+      "bytes": 8233,
+      "sha256": "d9ebf6c382b407711b7434710bb04f5d0eb56417cd3a72ee17a78442dc8d6e68"
+    },
+    "code/002-build-canonical-data.R": {
+      "bytes": 7506,
+      "sha256": "f89149d48952cbb1db0100b5c8aaee6651faed2f9a0ef328bbb44c24af6cfe8f"
+    },
+    "code/003-extract-dm-candidates.ipynb": {
+      "bytes": 17482,
+      "sha256": "8075effe47e53620342d6f6f2c88a0d3ab88f05bc4e122e75164a84e7dbeaef9"
+    },
+    "code/004-build-lexical-data.ipynb": {
+      "bytes": 31598,
+      "sha256": "1e73dbe709db061ee5bee293cb1c5da19f028de0f1a5b67a46a6960260b31745"
+    },
+    "code/005-robustness-validation.ipynb": {
+      "bytes": 4438,
+      "sha256": "930efe62e6517358b00caf0f2456c1406fd5088b78b156cd03cb8444623e3ea7"
+    },
+    "code/006-build-paper-assets.R": {
+      "bytes": 24212,
+      "sha256": "9840efbb73f8d6703bf55a057b94410dd1d779b06d1f0ce69620948c0da197db"
+    },
+    "code/006a-build-paper-assets-stepwise.R": {
+      "bytes": 17806,
+      "sha256": "99cbe9d46bb48bc0cde64558437eb94f8884a79240a9c7e997e37827624e8f1c"
+    },
+    "code/006b-build-si-assets-stepwise.R": {
+      "bytes": 28411,
+      "sha256": "b7677c201adc44114468ce52f4ce103e73a9bd87ca68b568d443db9e2bdb8e8c"
+    },
+    "code/01-reproduce.py": {
+      "bytes": 250,
+      "sha256": "f9b11e3dfa6a274235c9f89219d00f2f4fd404a4c56b62e154004517059e46f5"
+    },
+    "code/02-main-figures-stepwise.R": {
+      "bytes": 22391,
+      "sha256": "c9f8f2ab6e7439d807c97080eb16d8f7f1e4e8c453d1162f65e1a26984762977"
+    },
+    "code/03-si-figures-stepwise.R": {
+      "bytes": 28548,
+      "sha256": "602c10734717df085e7deeaa413c8e3fdf743fad9d931196c2282d4ba416dc69"
+    },
+    "code/04-build-figures.R": {
+      "bytes": 463,
+      "sha256": "3bc03c30daea9a46f6c4e1133a23857017f41a195baff664ebe1177f1267fb5e"
+    },
+    "code/README.md": {
+      "bytes": 1702,
+      "sha256": "2377608326de39e6a48b41fc79fdc0743d9275ea395df06ae9d7aa56b62d0188"
+    },
+    "code/README.qmd": {
+      "bytes": 1723,
+      "sha256": "293104433b0c9b14606771d9d197cdd62ceb51444508417a963d725183d56a09"
+    },
+    "code/candidate_validation_app.py": {
+      "bytes": 25965,
+      "sha256": "bb491287fca16dc2509b45dacf8043f8c4c355e05e97c7e6df028795ff7ba365"
+    },
+    "code/dm_term_normalization/__init__.py": {
+      "bytes": 1558,
+      "sha256": "c2363c7dccca43e80bfd335541b61750940b35fd9bd87228f2712780e87ab449"
+    },
+    "code/dm_term_normalization/candidate_ontology.py": {
+      "bytes": 18350,
+      "sha256": "2ececbef06708d85bc36d342c52f26b4c1b0111e207fb38bda2df80f412c8730"
+    },
+    "code/dm_term_normalization/normalization.py": {
+      "bytes": 13040,
+      "sha256": "aa48db465efa0a40ac1f9b62e47e845babf01959a55d66a5c09034628d020c49"
+    },
+    "code/dm_term_normalization/tfidf_preproc.py": {
+      "bytes": 16217,
+      "sha256": "c2205024b4449d851229edd95319e797fd37a862f3fc61d2cad36675e2faa07a"
+    },
+    "code/execute-notebook.py": {
+      "bytes": 1586,
+      "sha256": "90c9a9b3f200500f614707816d6b504285472d649b71597f73bd73605e58f563"
+    },
+    "code/freeze_candidate_ontology.py": {
+      "bytes": 7753,
+      "sha256": "c5fb4374fdce042dc5dca4eb19460409e365002b1805dcc15f34c8bb04a30150"
+    },
+    "code/materialize_inputs.py": {
+      "bytes": 1694,
+      "sha256": "1eb8908ec21842a6b0d835d336df76654553d433d4b52967fb91de17090967c8"
+    },
+    "code/modules/network_graphics.py": {
+      "bytes": 6202,
+      "sha256": "46a26f3b9e92b1a7bf4c4bc05898ef7a8c62d1a10dde6637b043601aad769416"
+    },
+    "code/modules/quartz-fonts.R": {
+      "bytes": 1623,
+      "sha256": "5144e2cf3368d26052afc18914ba687a46224728d8bcfa4e01bdedfd4a7326fb"
+    },
+    "code/modules/register-quartz-fonts.c": {
+      "bytes": 809,
+      "sha256": "835533e4c7386d6cdc6958981ffdeb62c9bb17fb12d5a1881680488872d8c2ce"
+    },
+    "code/modules/workflow.py": {
+      "bytes": 9676,
+      "sha256": "eb4722876a2d60705668b4b22cc026c9d359fe928055fd53cb74e6b02cdd1df4"
+    },
+    "code/network-reconstruction/LICENSE": {
+      "bytes": 1070,
+      "sha256": "bf93bfa6f2d02c1f0117ace38f9bfdd8e43b71679abbffe30383155d9c333a71"
+    },
+    "code/network-reconstruction/README.md": {
+      "bytes": 1403,
+      "sha256": "eab8d08a32f1b07bd5e6917d9fc2df7f935d1d4f22176c55d1f5b9b987a4178b"
+    },
+    "code/network-reconstruction/inputs.json": {
+      "bytes": 360,
+      "sha256": "a0477078cb617e5dbab7106de0bff8c5c643afe128c0bcfbade777e841a9608e"
+    },
+    "code/network-reconstruction/recompute_metrics.py": {
+      "bytes": 15581,
+      "sha256": "9de8d27065461ea8d1d2c76b3d065d207b043641af9df5498054b2517c2ea40b"
+    },
+    "code/network-reconstruction/requirements.txt": {
+      "bytes": 28,
+      "sha256": "bf7027d67b347b7daa65b105744e639e2929799077113ea8598252b62cee294e"
+    },
+    "code/network-reconstruction/tests/test_recompute_metrics.py": {
+      "bytes": 2961,
+      "sha256": "ffd8313c2c884f7cdf73cb8f0cff267baabc21d473873da9e6395d3b4643cc23"
+    },
+    "code/requirements.lock.txt": {
+      "bytes": 200,
+      "sha256": "bce1255f184ba2193645f5dddb4c134b0b6a2c0c1eb08891978dcc2c7431f605"
+    },
+    "code/requirements.txt": {
+      "bytes": 200,
+      "sha256": "bce1255f184ba2193645f5dddb4c134b0b6a2c0c1eb08891978dcc2c7431f605"
+    },
+    "code/robustness_analysis.py": {
+      "bytes": 70059,
+      "sha256": "611c5a9227fe952e594a63f2d26a1769d518830cf7965d5ed6f8c86f5952d40d"
+    },
+    "code/run_frozen_pipeline.sh": {
+      "bytes": 1058,
+      "sha256": "72a236c7f500da1bfefdaa4e68b62413f935fbeae228954807fee158ea5d3642"
+    },
+    "code/shared/__init__.py": {
+      "bytes": 59,
+      "sha256": "265fa2f447b5aa6b402659602b4c9c15bef38056f502781fe47800bf17dc0deb"
+    },
+    "code/shared/ads_api.py": {
+      "bytes": 8861,
+      "sha256": "48a75960dfd98bfd0b46a418d70fa742c883145ac2458d4e80a2e3cb3b9cb0a9"
+    },
+    "code/shared/project_paths.py": {
+      "bytes": 1401,
+      "sha256": "175ae01ee59e2ffed15be7dbdb10b1be2e9a423f4862baf6aae78fa07a6c4cd7"
+    },
+    "code/stage-outputs/.gitkeep": {
+      "bytes": 38,
+      "sha256": "7d26db9f25d0cb925135a4994696a00bcce4eb23db79202652e9282f9505efe2"
+    },
+    "code/stage-outputs/001-collect-ads-records/ads_stage_001_snapshots.zip": {
+      "bytes": 79166407,
+      "sha256": "7c0c5b12ab920b6b7e37d6a6a3bb6cf31eff99c44de4f4df4e085fcb93093025"
+    },
+    "code/stage-outputs/001a-update-ads-records/.gitkeep": {
+      "bytes": 47,
+      "sha256": "2c5b16b89d8aae7022622b642e8d8a7bdca42a809a56f7afac44c1432065fc56"
+    },
+    "code/stage-outputs/003-extract-dm-candidates/.gitkeep": {
+      "bytes": 53,
+      "sha256": "52483d4f309db059d4ffd843b8ca786ed157b41dd7c1cf67d6dc001da8fdbd0b"
+    },
+    "code/stage-outputs/004-build-lexical-data/cache/.gitkeep": {
+      "bytes": 39,
+      "sha256": "ca25d35f975773a9a7b014da68a9b8f59326abfa236d07b6b1720e69aa06f855"
+    },
+    "code/stage-outputs/004-build-lexical-data/support/.gitkeep": {
+      "bytes": 41,
+      "sha256": "19175f2c63f617ba7bc6a91acb80b3e2bf6ed78dbe3e049d511bd46c547ede45"
+    },
+    "code/stage-outputs/README.md": {
+      "bytes": 774,
+      "sha256": "20667a2d7c52ec4da40fc7027f575d396eca675a1c198a1dbebba1d6826a43d5"
+    },
+    "code/tests/test_candidate_ontology.py": {
+      "bytes": 3397,
+      "sha256": "033186ca809385ff77eba3e09d4bdbdaa091e02578c374a82ec5da8a3ff8048b"
+    },
+    "code/tests/test_candidate_validation_app.py": {
+      "bytes": 3222,
+      "sha256": "d913c2a45b7187c100ebf2703eac0c1d33bd9b617b9d404da18b7086148533b8"
+    },
+    "code/tests/test_robustness_analysis.py": {
+      "bytes": 8306,
+      "sha256": "3d28ecd9253a3629a48c8ea863901c583206226b56a379eaf75ee2675fe24fef"
+    },
+    "code/tfidf/__init__.py": {
+      "bytes": 69,
+      "sha256": "6540cc5c1ced987a32cf4667d0efdbc325309cb9d5c08a9c31e46654bbe343c9"
+    },
+    "code/tfidf/final_stopwords.txt": {
+      "bytes": 6220,
+      "sha256": "07d7790bbabca951f17bb479423ff1e721f72362a5d290669ef3a45b0ada7205"
+    },
+    "code/tfidf/tfidf_config.json": {
+      "bytes": 20681,
+      "sha256": "f4ee1734f2dc35b6074337c960995a710553b301a085b1e6bed921f3adfb1779"
+    },
+    "code/verify_package.py": {
+      "bytes": 805,
+      "sha256": "0e10e7b2851d484a46eb10316c4cde3bd31d954c7d01837fca6b68f768a6d8b4"
+    },
+    "code/workspace_rooting/__init__.py": {
+      "bytes": 55,
+      "sha256": "651d9e88c73e0c81be9ce94b5b62cad1d5838370d92e3880458c599153c8fbc9"
+    },
+    "code/workspace_rooting/workspace_paths.py": {
+      "bytes": 523,
+      "sha256": "b3aebe267a30f5c1ee7be0f411c99ac0c14993aa1862ea9148066d072189806d"
+    },
+    "config/main-figures.json": {
+      "bytes": 999,
+      "sha256": "1bcb1e5d80d7262101df42b40c32298e559fd2943c43b5824c3d0f66a7edee0f"
+    },
+    "config/workspace.json": {
+      "bytes": 196,
+      "sha256": "8a2dc1b50de221b95bf42a459c5fbd6a9b867919dc4ff3b53a4d2382a57fe037"
+    },
+    "configure_repo.sh": {
+      "bytes": 73,
+      "sha256": "194ccc6049391a6a742d3ad60bf60c722533e60eb134f6eb4026e20cac2bcd74"
+    },
+    "data/INPUT-STORAGE.json": {
+      "bytes": 1215,
+      "sha256": "4009419b7bedcdad3d8f25c935245b390984b72a3c74b73143920d91866078c4"
+    },
+    "data/README.md": {
+      "bytes": 1070,
+      "sha256": "426a94a14a0aa04192fa9599c38801d89fd59f38c7747270097ae2abc1448eb8"
+    },
+    "data/analysis/abstract_coverage_yearly.csv": {
+      "bytes": 12382,
+      "sha256": "fcf01869c9e5d621c52084f98cd9917a131171a2c82ab5bda5bf455e53ff67fd"
+    },
+    "data/analysis/abstract_coverage_yearly.parquet": {
+      "bytes": 6625,
+      "sha256": "a08a5cb66ed418f90e37d9177f9be712ec566360eeb6086352434882943e4892"
+    },
+    "data/analysis/analysis_summary.json": {
+      "bytes": 889,
+      "sha256": "dccbbea66add868ce75c1b8d7ff6ae78f4b2207004b8fecb7ab0388a071412f3"
+    },
+    "data/analysis/arxiv_class_mapping.csv": {
+      "bytes": 4243,
+      "sha256": "d7e5770a12d44ec0e733905ebe9c0d62a83296bacf52b9056bfb931cb0f5d701"
+    },
+    "data/analysis/arxiv_class_mapping.parquet": {
+      "bytes": 4248,
+      "sha256": "c9be5f293d7231cff6a30c216f1f4a8b40dba2ef02b8a5ea2b696b2d1a0e0ed7"
+    },
+    "data/analysis/candidate_bias_sensitivity_summary.csv": {
+      "bytes": 404,
+      "sha256": "50a0837b383e10052c594a7b7a68d445b63546eee000b3e5a901f305228cdf46"
+    },
+    "data/analysis/candidate_bias_sensitivity_summary.parquet": {
+      "bytes": 5087,
+      "sha256": "9b7c375403754156c9d731a84190d2549e0ceccc1464b00968d651dbc5f59314"
+    },
+    "data/analysis/candidate_divergence_contrast.csv": {
+      "bytes": 256,
+      "sha256": "fd7bca8ab5e8f647f74021b4a080352dfa2b41fe5d86cdc221db683f1276efad"
+    },
+    "data/analysis/candidate_divergence_contrast.parquet": {
+      "bytes": 5437,
+      "sha256": "c1e789f9eb9df3866521d3ea28226243649cc98c7b6532b798a65b256d884477"
+    },
+    "data/analysis/candidate_divergence_document_sensitivity.csv": {
+      "bytes": 3224,
+      "sha256": "7c23d0632053b6bd572e5a4406e25c30ce37f304687407fee3766705d2c381a8"
+    },
+    "data/analysis/candidate_divergence_document_sensitivity.parquet": {
+      "bytes": 3198,
+      "sha256": "f95a14758bced32fc00a089656d6b1090bf7b5c637e0788fc0a09ded0767760f"
+    },
+    "data/analysis/candidate_divergence_yearly.csv": {
+      "bytes": 3489,
+      "sha256": "47e606c53010b18f58b07e005e0a8f69c7c3f7c83b4382a90c3290d4a055ee80"
+    },
+    "data/analysis/candidate_divergence_yearly.parquet": {
+      "bytes": 7105,
+      "sha256": "6b1b92924f8e5e9c30788050a7f8079f9d5cb9c127f2680d1c471316af8cbf9e"
+    },
+    "data/analysis/candidate_document_type_flow.csv": {
+      "bytes": 563,
+      "sha256": "75942fcb2281c0e5542f7206fb5908e5de60dec1f4acc515b0c6ab17f559ace9"
+    },
+    "data/analysis/candidate_document_type_flow.parquet": {
+      "bytes": 3412,
+      "sha256": "3c0c908158b5961536afa5af1c8cfb0cc81d14e511ac489c6030855f01345731"
+    },
+    "data/analysis/candidate_family_selection_sensitivity.csv": {
+      "bytes": 6173,
+      "sha256": "5c3cf8b126c43f03bdbb8a1a867d2306b5c5fa91e0581e96e2657aa014f6d3c9"
+    },
+    "data/analysis/candidate_family_selection_sensitivity.parquet": {
+      "bytes": 9051,
+      "sha256": "04555613f36e2c0e2f12af5e8677a7d63adb50dcc1bc3ca6c36fad5e7db2e6fc"
+    },
+    "data/analysis/candidate_field_yearly.csv": {
+      "bytes": 52596,
+      "sha256": "d7146e4f13ac542d48fb551e219b8473e68379ca608613b12e454312aaf0bfce"
+    },
+    "data/analysis/candidate_field_yearly.parquet": {
+      "bytes": 27037,
+      "sha256": "e283b32a64e0b8ffefeed578953b5e905f3a73742d28b40951d12fb0a6b5b5db"
+    },
+    "data/analysis/candidate_permutation_yearly.csv": {
+      "bytes": 3574,
+      "sha256": "b1ef08e3107c002d63f0381b234ef9e3d03e9b7055f37148aad365f86680fb16"
+    },
+    "data/analysis/candidate_permutation_yearly.parquet": {
+      "bytes": 6470,
+      "sha256": "9a59ec323cf24f75766d9d8177af9000dc3b3b5e8752c950e5f56054e36b7766"
+    },
+    "data/analysis/candidate_rarefaction_yearly.csv": {
+      "bytes": 2241,
+      "sha256": "131483817cffcb55c9afe7bd726f36c30209843968a242e95e311c2811d9f95a"
+    },
+    "data/analysis/candidate_rarefaction_yearly.parquet": {
+      "bytes": 5304,
+      "sha256": "b3dfe874d90f9efc203cb7c56ee1bd69a0f9af932d7bb6faa1214a1d3d48420e"
+    },
+    "data/analysis/candidate_specification_sensitivity.csv": {
+      "bytes": 838,
+      "sha256": "309c7c17faa60bbd2624d943bb7700066915cf016c316a7689a47f095670b9e4"
+    },
+    "data/analysis/candidate_specification_sensitivity.parquet": {
+      "bytes": 6652,
+      "sha256": "a2bb6c2966f6b56cf9b7229e82a790ff4b1c21e824929531b2487c0ec90db5de"
+    },
+    "data/analysis/classification_assignment_yearly.csv": {
+      "bytes": 74391,
+      "sha256": "4906fd6609e0c8f350ee74e8c92e2592fa3c117c0a7c13e05ccaaf1448cad2cb"
+    },
+    "data/analysis/classification_assignment_yearly.parquet": {
+      "bytes": 18811,
+      "sha256": "305cbfb06fc9a479fc0a1f8307be5804a6eb47f80379ced6c47aaf3174afa45a"
+    },
+    "data/analysis/classification_coverage_doctype.csv": {
+      "bytes": 885,
+      "sha256": "cfe56cc4af88ef27b90da9bdf6eb7f8d8bfe1f118b3ffb259c214677fd0c6a12"
+    },
+    "data/analysis/classification_coverage_doctype.parquet": {
+      "bytes": 4359,
+      "sha256": "d87c3b265ed164a48f22e6b80ee3866c0d75a3b168244339939ebc316fe8ba0f"
+    },
+    "data/analysis/classification_coverage_yearly.csv": {
+      "bytes": 3104,
+      "sha256": "81b654f46fef10ca699f0e356ac30552265f1a11cef5f19a95e038ab4ba12d20"
+    },
+    "data/analysis/classification_coverage_yearly.parquet": {
+      "bytes": 5708,
+      "sha256": "a05edfd64fffd0e277971ee58438dcab3a16c490dd608312309b43b575d11393"
+    },
+    "data/analysis/classification_crosslisting_yearly.csv": {
+      "bytes": 3258,
+      "sha256": "84f53baa009d4eec169f6cb731c7213136fa957abf775afd80f35405b360b590"
+    },
+    "data/analysis/classification_crosslisting_yearly.parquet": {
+      "bytes": 8021,
+      "sha256": "0e34894280d392082d49586eabd980d114c598efd95a31af7a04afbdeb1fa47d"
+    },
+    "data/analysis/classification_primary_yearly.csv": {
+      "bytes": 89750,
+      "sha256": "792f22388947a91cb253ba8cd29d03ddc883d6871208eaebadf32ab93d702895"
+    },
+    "data/analysis/classification_primary_yearly.parquet": {
+      "bytes": 16463,
+      "sha256": "171d8926a287cfea9f41bb61cde2ea3cb5f756cb0f7f181f2489921d77fa0b6e"
+    },
+    "data/analysis/field_bigram_rankings.csv": {
+      "bytes": 5467,
+      "sha256": "2db9ff1c5101849d0b1e2d3d832c34022007db2deaeff603873986dee7d2fe1b"
+    },
+    "data/analysis/field_unigram_rankings.csv": {
+      "bytes": 5047,
+      "sha256": "772752dab5f0d25d9b787080b5d2f0ed5c8ce34014f72811387ebe00bd1a9318"
+    },
+    "data/analysis/keyness_bigrams.csv": {
+      "bytes": 1260016,
+      "sha256": "d8f8e307bf069a1f2ea487e932db8b3ad50ab3557fe95577712dab17ef887433"
+    },
+    "data/analysis/keyness_unigrams.csv": {
+      "bytes": 710773,
+      "sha256": "477ae8c0486b3b23c1578b0b9127d51ee326c182ed19c3c1aaee75f2df768a86"
+    },
+    "data/analysis/lexical_divergence_yearly.csv": {
+      "bytes": 4188,
+      "sha256": "8e047fdc45daa71e848087432a092c830d66fdbbdc9510833c0dfec4abdb2705"
+    },
+    "data/analysis/lexical_divergence_yearly.parquet": {
+      "bytes": 6047,
+      "sha256": "c14e5c5eea5911b6d34b9f0275e9cf17c03f2f502a2d0a659418ea35e483d698"
+    },
+    "data/analysis/paper_volume_yearly.csv": {
+      "bytes": 3249,
+      "sha256": "ee58c3d1c73efe9d58abc352fda149f7f405bd1690bb9f85159b06bbc46b889b"
+    },
+    "data/analysis/paper_volume_yearly.parquet": {
+      "bytes": 5055,
+      "sha256": "20e2bdf1902cb375d91449f6b481e710331de8ebd3c3ff75123aa4426783e669"
+    },
+    "data/analysis/tracked_candidate_species.txt": {
+      "bytes": 112,
+      "sha256": "086993ae87d992b2166cdd54c252bfa7c2f5b071fdcbe0308cedffc9884289d6"
+    },
+    "data/analysis_manifest.json": {
+      "bytes": 2990,
+      "sha256": "3ec230207444988f18940d949f51f604ba3cefcb1487e12c147734afe1592f02"
+    },
+    "data/dm_model_candidates_long.parquet": {
+      "bytes": 298956,
+      "sha256": "174653a9d1faf17b51097c98605177e258262108eb1034b43815f599872e2be5"
+    },
+    "data/paper_arxiv_classes.parquet": {
+      "bytes": 1639795,
+      "sha256": "f43217ad0fd502e93f9048c6421481273b94ddcc618b290ec79ec9f0aaa47723"
+    },
+    "data/paper_metrics_long.parquet": {
+      "bytes": 5063000,
+      "sha256": "f8864858b55f05cf1c2014a15c7b5f3acf23e8d4851d9dbcc0c559a6af4b956f"
+    },
+    "data/papers.parquet.part01": {
+      "bytes": 78643200,
+      "sha256": "cb91b3187497ec93bc5b4b2b5765075a4e085fcbb66e55b4937fd1c0fc5410e5"
+    },
+    "data/papers.parquet.part02": {
+      "bytes": 42178113,
+      "sha256": "f9afb068b1176c7205c59c4922e71a7d57976112ae8e35361479f0ead15036fd"
+    },
+    "data/papers_with_dm_models.parquet.part01": {
+      "bytes": 78643200,
+      "sha256": "85ef060fe2f61f73a2df6d3d6b489fd92ba7b22327e375e19a7933925479abca"
+    },
+    "data/papers_with_dm_models.parquet.part02": {
+      "bytes": 29623010,
+      "sha256": "ba9bf98b0cc47825d5ec1c90c0f664f3568826b31b35e151e2aa52d07c2018dc"
+    },
+    "data/unigram_yearly.parquet": {
+      "bytes": 1629810,
+      "sha256": "570dc4c7477cdf12a4f88662d828beece9a0d1b8b91283a15375df3935d7eacd"
+    },
+    "data/validation/candidate_ontology_freeze.json": {
+      "bytes": 9078,
+      "sha256": "ff1f22dcf77e058f5d397749a0fd7b5162dcf3c699a065142574cb4a6c224b63"
+    },
+    "data/validation/candidate_ontology_freeze_notes.md": {
+      "bytes": 2779,
+      "sha256": "fc75253107cc58f94f8a0d5c1116a8dccd5177995a5cb385e1c9362188676823"
+    },
+    "data/validation/candidate_validation_codebook.md": {
+      "bytes": 1395,
+      "sha256": "64aaef02b37433fe3ff4c77ec353f5c682fd37370749889408c12a45dc256909"
+    },
+    "data/validation/candidate_validation_development.csv": {
+      "bytes": 207291,
+      "sha256": "1963da20860ff469c15e8ae71b064e953f99b9d4e38f63cb2f98422ad8217b97"
+    },
+    "data/validation/candidate_validation_family_performance.csv": {
+      "bytes": 120,
+      "sha256": "2c0fb1f41bde3e323d21bfc0c21d1ac19409a6d4131edc5639a5c8f6d6d73456"
+    },
+    "data/validation/candidate_validation_family_precision.csv": {
+      "bytes": 120,
+      "sha256": "2c0fb1f41bde3e323d21bfc0c21d1ac19409a6d4131edc5639a5c8f6d6d73456"
+    },
+    "data/validation/candidate_validation_field_period_performance.csv": {
+      "bytes": 282,
+      "sha256": "1e9d6d70eb8c24bc8b50a7240971932f5dd433cc55c3705b18c735e3638af408"
+    },
+    "data/validation/candidate_validation_holdout_population.csv": {
+      "bytes": 622477,
+      "sha256": "a0e9ad5f5996f277f0d087abc89b275a0940c327ba77e670dc338766e879ff56"
+    },
+    "data/validation/candidate_validation_holdout_positive.csv": {
+      "bytes": 212208,
+      "sha256": "97234406aa83d3314ecf06e65212963c4361fe17e7c747b3a0ba149119591488"
+    },
+    "data/validation/candidate_validation_summary.csv": {
+      "bytes": 666,
+      "sha256": "87cacad9d3ff659f9ed735b66723c3efd24abcf23421cddf2d579241a7fe2d31"
+    },
+    "data/validation/candidate_validation_system_key.csv": {
+      "bytes": 90234,
+      "sha256": "d46805a403eefca8cfd75d954660e8f675aa6dc17c2520f210def3d8b80b0f22"
+    },
+    "data/validation/primary_category_validation.csv": {
+      "bytes": 68192,
+      "sha256": "03c46a5c92f201f3613ebac6993cecadc19723b92d7e05d7338aa8e3eb0f25db"
+    },
+    "data/validation/primary_category_validation_summary.csv": {
+      "bytes": 113,
+      "sha256": "894ce794ee694f841fb2f6e2822d3654693e9fbda74d9aaaf17890edc60b9cc9"
+    },
+    "docs/repo-map.md": {
+      "bytes": 1509,
+      "sha256": "48be2a2a33bf295f6035fa484caa7e21dd533290278696bb42a4787e02c326f3"
+    },
+    "docs/repo-map.qmd": {
+      "bytes": 1530,
+      "sha256": "aaff1dd0ce9af1ee9968e5d2139f1472f29dd18a841442de675c8815d725a0eb"
+    },
+    "figures/README.md": {
+      "bytes": 1244,
+      "sha256": "3802ecbd7f243bc3ed5705c90e927e65d6fe69e4c326e77cec16661a094024fd"
+    },
+    "figures/alt_text.md": {
+      "bytes": 3464,
+      "sha256": "b6d3efb9d5799f65025de56c76346a3660fbe4fd45bcefcad9e9c08409057c7a"
+    },
+    "figures/fig4_closure_conditions.pdf": {
+      "bytes": 991767,
+      "sha256": "bd9557ba1a6a022d04ee5abf9840731844795a4b6809f3e2c0b9c94d6a57e504"
+    },
+    "figures/figS1_classification_sensitivity.pdf": {
+      "bytes": 348247,
+      "sha256": "0aeeb89b588b065cbc89c8ee7fce29d277c69aa1e77dc3178b501559ca575b34"
+    },
+    "figures/figS2_candidate_raw_counts.pdf": {
+      "bytes": 264203,
+      "sha256": "4db0658ea660f39a0142e031df6c8fa9841320eb31913d8299e817d4a6d16e65"
+    },
+    "figures/figS3_candidate_distances.pdf": {
+      "bytes": 401371,
+      "sha256": "e96019f3db223b677684f1735630c867b4f213af04a82b03b22dd8fee5b5b131"
+    },
+    "figures/figS4_lexical_divergence.pdf": {
+      "bytes": 516140,
+      "sha256": "9b24d65af3b6f5b0cb423bac8e79dadfe51cdb359086f99d6b55cf9df413a0d0"
+    },
+    "figures/fig_table.png": {
+      "bytes": 306716,
+      "sha256": "71120d65f21d68720fc7718a92e1802a2325a4ceead96db92e2f99a4f92678d8"
+    },
+    "figures/figure_manifest.json": {
+      "bytes": 1856,
+      "sha256": "3cad80302ab7d340b22c6051491929c5be2423140040a0cbdd7456a2c5133e39"
+    },
+    "figures/graph-01.pdf": {
+      "bytes": 936391,
+      "sha256": "801cc53c9ef43f46f8a0e611a2c9face71d06f01e395a048c1e25b3d2edd221f"
+    },
+    "figures/graph_removal.pdf": {
+      "bytes": 447270,
+      "sha256": "658b18fd5355a5e95eade4c0a3d64b5cb6ec3d16a1988bafcf9e600c7190d944"
+    },
+    "figures/log_ratio.pdf": {
+      "bytes": 228714,
+      "sha256": "f98c65c5c725e513adc072d930611893e9b2d7c1ba52e5f2afe0d763fb5a7c45"
+    },
+    "figures/norm.pdf": {
+      "bytes": 279307,
+      "sha256": "ad5cac9d3792279b1d72569b18fa461961a79c34fb07c6649ff254ef4d78da21"
+    },
+    "figures/normalized/fig-candidate-composition.pdf": {
+      "bytes": 59861,
+      "sha256": "d4899d640cd55b6024644568bb64b1060101f852099622c19526e838eb244643"
+    },
+    "figures/normalized/fig-candidate-prominence.pdf": {
+      "bytes": 26395,
+      "sha256": "6fa9fbca4435dafb05ab6dc93628faf8ac2cc435a699dc4ce259983905db6078"
+    },
+    "figures/normalized/fig-cross-field-brokerage.pdf": {
+      "bytes": 3782567,
+      "sha256": "2c1a10405406bbafe2d4fbe9cfac14ee266d3064319e4d2ed94a541b5746aea4"
+    },
+    "figures/normalized/fig-research-classifications.pdf": {
+      "bytes": 14909,
+      "sha256": "031a2b1d8dddbc71b1a65256d3345cb940c9744a4425cfd9a925ec5cfc6529d7"
+    },
+    "figures/normalized/fig-si-candidate-counts.pdf": {
+      "bytes": 264203,
+      "sha256": "4db0658ea660f39a0142e031df6c8fa9841320eb31913d8299e817d4a6d16e65"
+    },
+    "figures/normalized/fig-si-candidate-distances.pdf": {
+      "bytes": 401371,
+      "sha256": "e96019f3db223b677684f1735630c867b4f213af04a82b03b22dd8fee5b5b131"
+    },
+    "figures/normalized/fig-si-classification-sensitivity.pdf": {
+      "bytes": 348247,
+      "sha256": "0aeeb89b588b065cbc89c8ee7fce29d277c69aa1e77dc3178b501559ca575b34"
+    },
+    "figures/normalized/fig-si-lexical-divergence.pdf": {
+      "bytes": 516140,
+      "sha256": "9b24d65af3b6f5b0cb423bac8e79dadfe51cdb359086f99d6b55cf9df413a0d0"
+    },
+    "figures/normalized/fig-si-node-removal.pdf": {
+      "bytes": 3071173,
+      "sha256": "9f1e3cfeac62335e70d239de6cd9571ca729648f0a549e278699b7c06ee46096"
+    },
+    "figures/primary_dominant.pdf": {
+      "bytes": 222555,
+      "sha256": "3811319a0cb176c0cbd8a6e88eb12cf595435bb17566f1533456920100fabf0e"
+    },
+    "install_repo_kernel.sh": {
+      "bytes": 237,
+      "sha256": "8efb81c2d2365699281c96701df772453caba37779ad2bdfe25c68a993ed51ef"
+    },
+    "network/.gitignore": {
+      "bytes": 74,
+      "sha256": "f527baf339b36f8c064ed8c83435db1d588ee6d57a1baed182a243f75469421f"
+    },
+    "network/README.md": {
+      "bytes": 13898,
+      "sha256": "4212be5757cb06cd39caa7f96a269cf713358fc342e7624cb5800099bd3eadad"
+    },
+    "network/build_wimp_role_graphs.py": {
+      "bytes": 2670,
+      "sha256": "0fbd308371e0be0bfdf58c9ead5678e6cfc7c003ba899069cc3f5bafe7ddac06"
+    },
+    "network/canonical-frozen.zip": {
+      "bytes": 26066617,
+      "sha256": "3d74d79ec706fe60a3825b3bf3cb7f1dd22587fef01172aead04ad04759f8063"
+    },
+    "network/config/entities.json": {
+      "bytes": 25607,
+      "sha256": "4bb4554f5b77d0998c47c7f2db2e39c75dfbee5cb79debbfb35d5a430210f79f"
+    },
+    "network/config/entity_catalog.json": {
+      "bytes": 681,
+      "sha256": "f6780761b6c9114ae077f395e0ed48a30bac9847f1ee7df8a018e49ca5533118"
+    },
+    "network/config/ontology/ONTOLOGY_GAP_AUDIT_2026-08-10.md": {
+      "bytes": 11799,
+      "sha256": "ccd26bdb716d8812ff36b78f014cd7368e0e925661e4459ff6d4b50636fa1d5b"
+    },
+    "network/config/ontology/README.md": {
+      "bytes": 4575,
+      "sha256": "dff80720d19433585a8864599b60b7cbfde84e176d94dbf639ceace5eb69da0a"
+    },
+    "network/config/ontology/apparatus.json": {
+      "bytes": 25797,
+      "sha256": "44a230993023c7bbeba9946cefdd3e9b0cb4a4515d6593a6d65fb5d9388cc2e8"
+    },
+    "network/config/ontology/concepts.json": {
+      "bytes": 16398,
+      "sha256": "78e0c84c25c7506da650ea4e0fe42c92520626a4f7c12b9e4eb33e63c8208686"
+    },
+    "network/config/ontology/coverage_apparatus.json": {
+      "bytes": 29547,
+      "sha256": "cade205cbf620833d9a379ea9f8bfba3225f59986acfbeb36093eeba7752cba1"
+    },
+    "network/config/ontology/coverage_concepts.json": {
+      "bytes": 40421,
+      "sha256": "81cbcad30953cc09eb63dade97f7d61546e992da19bf24d501212f58c22f5549"
+    },
+    "network/config/ontology/coverage_theories.json": {
+      "bytes": 21558,
+      "sha256": "1deef7f3433899c702147a23993526fd82daaaaf652930cab99b517e94519bc2"
+    },
+    "network/config/ontology/extensions.json": {
+      "bytes": 319,
+      "sha256": "cdd064fe89370948219ba21faed7860739d1a38c5fafb6df40c858578c132e24"
+    },
+    "network/config/ontology/phenomena.json": {
+      "bytes": 24668,
+      "sha256": "9bd50f441ec3099fb7430aa84cab5ca5937bea40d2546af725f0db009f0565ae"
+    },
+    "network/config/ontology/theories.json": {
+      "bytes": 25685,
+      "sha256": "f19e269046784586bf0267fda476e97c6eef204d43e03976a3de8a4a2a0ba30b"
+    },
+    "network/config/relations.json": {
+      "bytes": 2813,
+      "sha256": "c28a41f09623395efaa7bfc548497e6389468f7de18d6b6c0a32ab89579cc62e"
+    },
+    "network/config/wimp_role_analysis.json": {
+      "bytes": 1623,
+      "sha256": "e45fe0751bf452858c726c2af84afd5539348b300cf128cbe747778d4b39db28"
+    },
+    "network/dm_network/__init__.py": {
+      "bytes": 591,
+      "sha256": "61cc45c89d2dea4ad8ba74a20529dad6e2d8372703ee5e14b70d563d32790d8b"
+    },
+    "network/dm_network/extraction.py": {
+      "bytes": 17970,
+      "sha256": "f4cbc3dd1dbafcc832b325d25afd57b429586e9d77326211e3402446556c7efc"
+    },
+    "network/dm_network/graph.py": {
+      "bytes": 23106,
+      "sha256": "5cd63e86203eb720bfbd13d536af84441fab2c17b5a3e5785ffadbdcffb84cd9"
+    },
+    "network/dm_network/ontology.py": {
+      "bytes": 11078,
+      "sha256": "76405eb9d796ef5e9c5fb6720fd8ac01466cf97c3fd2e408184da921967b7c17"
+    },
+    "network/dm_network/wimp_role.py": {
+      "bytes": 107771,
+      "sha256": "beb32b7ee9c23e2dd3a059fe491af4b08c71c3ccd9091da121e92340827f05d6"
+    },
+    "network/requirements.txt": {
+      "bytes": 78,
+      "sha256": "dc7681a3a2c7d422f0327cb794a866a2c91f73a633e804264fa46869872cadb0"
+    },
+    "network/run_pipeline.py": {
+      "bytes": 16460,
+      "sha256": "4ef21292f80696f962ff03ea254834ade2136dd885ff8b9468c4dbc5237d7c03"
+    },
+    "network/summaries/02_area_wide_importance/candidate_metrics_by_window.csv": {
+      "bytes": 660053,
+      "sha256": "5af64243c4d7bb6ce2613581ca2d748bfb854c476fdd180541a38d49826bbd4d"
+    },
+    "network/summaries/02_area_wide_importance/wimp_importance_trajectory.csv": {
+      "bytes": 20657,
+      "sha256": "edf77405efaea969def71e742ec351a2eda6490151b7e1ef423c3742299b283a"
+    },
+    "network/summaries/03_cross_field_brokerage/common_endpoint_sensitivity.csv": {
+      "bytes": 1078,
+      "sha256": "07a256754153fc5b9e5b3eedc55a5e710f672538099f0f0bcf7ba02b943e8bd8"
+    },
+    "network/summaries/03_cross_field_brokerage/node_removal_metrics.csv": {
+      "bytes": 467254,
+      "sha256": "af673d172b9029be73f53b4064ee7c14e56d5109121bc8f81e8922678670de6e"
+    },
+    "network/summaries/03_cross_field_brokerage/wimp_brokerage_trajectory.csv": {
+      "bytes": 26564,
+      "sha256": "3b02649221ae7fadb45e21741b026bfb1070a3c6d7652ac439428cb850b4a9df"
+    },
+    "network/tests/test_pipeline.py": {
+      "bytes": 15000,
+      "sha256": "2079df33cb93cee862cf63ea0bf132addf8ad0672b8a82048ccc0b364b997fb0"
+    },
+    "network/tests/test_wimp_role.py": {
+      "bytes": 17191,
+      "sha256": "6caa18b1e8cca835605f47c2ab8070c68605572f4739968153326d41ddc5120b"
+    },
+    "network/wimp-role-networks-frozen.zip": {
+      "bytes": 33571179,
+      "sha256": "28f9fd062a639ecec45084995992e8d2ba98c3e4ed4fc86bbd1efbf93950907d"
+    },
+    "notebooks/01-reproduce-diverging-paths.ipynb": {
+      "bytes": 5133,
+      "sha256": "02c197de283f891bc9654f2f303a15bd6128f0aa0df46d67c1595c5bb1a61250"
+    },
+    "provenance/v3.0.0/.zenodo.json": {
+      "bytes": 1628,
+      "sha256": "40f10ebfb2877d6a19c911bb358abdffceba409f00dd0028673305b28dfc581f"
+    },
+    "provenance/v3.0.0/CITATION.cff": {
+      "bytes": 1258,
+      "sha256": "42ba1e9f20847fcc9697cd015c5153f29b21cae3807e1a7c62a49e5418d71597"
+    },
+    "provenance/v3.0.0/README.md": {
+      "bytes": 9630,
+      "sha256": "e164397631c59b9a4e4007fddc90db5a26f38be495c6d111332dbd8c38ea7899"
+    },
+    "provenance/v3.0.0/README.qmd": {
+      "bytes": 9778,
+      "sha256": "19c444b5695789a71dfda3ad6ec749066a4034c4675e9df332d40ce7ab089b17"
+    },
+    "provenance/v3.0.0/release_manifest.json": {
+      "bytes": 32308,
+      "sha256": "3765583ad50e2c6309bca5af9d76f6425c921babcef61ec74c3742b14945f5c9"
+    },
+    "render-docs.sh": {
+      "bytes": 1800,
+      "sha256": "f4d67c89c9aedef7e0b00623dcea002e088bb58295de901b13e7f3ae1aab471a"
+    },
+    "renv.lock": {
+      "bytes": 77291,
+      "sha256": "ee9ce82842329b21c3b54df21ebb7e41e39987d21e5633e3d12ce8b0da8db0c6"
+    },
+    "requirements.lock.txt": {
+      "bytes": 817,
+      "sha256": "8e877994c9b09888005e3b53e6e209d34e3ef11e79001ac244ca99e955de18f5"
+    },
+    "requirements.txt": {
+      "bytes": 154,
+      "sha256": "7082d149378e3bee5dfb845221c2f8c182133ffb53d6294ac5fc3d4c62584800"
+    },
+    "resources/fonts/AUTHORS.txt": {
+      "bytes": 525,
+      "sha256": "98d40fc97137fea250c07fc46f4f3a4bff15ac8c02adb3fb54a58e1f3755e3ec"
+    },
+    "resources/fonts/FONTLOG.txt": {
+      "bytes": 42411,
+      "sha256": "4c487f672c92c3eb89575b2b55404bc6ab5403c1c28757e2e680fec81199f0a2"
+    },
+    "resources/fonts/OFL.txt": {
+      "bytes": 4882,
+      "sha256": "bec17cee6412788db45fd2644b301afbc99cc5d372ddd3345dc4a7bfdefb9f04"
+    },
+    "resources/fonts/STIXTwoMath-Regular.otf": {
+      "bytes": 838508,
+      "sha256": "95bc2729e41faf93b0bcae9e96c4dc4da45855067fd0581e621e30734fe8d90b"
+    },
+    "resources/fonts/STIXTwoText-Italic.ttf": {
+      "bytes": 320332,
+      "sha256": "8695733706c0768637c6051141abad7cdb854184c7c36fb5050cdd0f4b148e7c"
+    },
+    "resources/fonts/STIXTwoText-Medium.ttf": {
+      "bytes": 294656,
+      "sha256": "2d1f32bbeb89b7b57d726b6bfa6ff5aae2387c4c27ee8f738c1885f70c60e59c"
+    },
+    "resources/fonts/STIXTwoText-MediumItalic.ttf": {
+      "bytes": 321212,
+      "sha256": "2692e8e31886972a51978a68a6460f65697351b334452959aea153ff070f718b"
+    },
+    "resources/fonts/STIXTwoText-Regular.ttf": {
+      "bytes": 294348,
+      "sha256": "d2a222614cf280f2db1d4ebd7d6f0dad5772541f8945a96ee4bf899c845b695b"
+    },
+    "resources/retained-figures/graph-01.pdf": {
+      "bytes": 936391,
+      "sha256": "801cc53c9ef43f46f8a0e611a2c9face71d06f01e395a048c1e25b3d2edd221f"
+    },
+    "resources/retained-figures/graph_removal.pdf": {
+      "bytes": 447270,
+      "sha256": "658b18fd5355a5e95eade4c0a3d64b5cb6ec3d16a1988bafcf9e600c7190d944"
+    },
+    "run.sh": {
+      "bytes": 1311,
+      "sha256": "1a7243894948dee3a0e3f391dc5d791f9e7f71679b679e300e1f25d99213eaa5"
+    },
+    "setup-environment.sh": {
+      "bytes": 690,
+      "sha256": "02a9cc1f1f2592521e2ae22511d86300bd390d021476ab70905e49743a5cf6b7"
+    },
+    "tables/README.md": {
+      "bytes": 283,
+      "sha256": "dfd11861f7033eac67a6f7f5e192a19591e109274c12d2fbceb395a1dcd8566b"
+    },
+    "tables/tableS1_candidate_terms.tex": {
+      "bytes": 622,
+      "sha256": "150ae1ed0cf0fc0fda36245c572889055dfbf4ff841f1d7571f0a1559c49c3de"
+    }
+  }
+}
